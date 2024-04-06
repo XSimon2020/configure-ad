@@ -13,7 +13,9 @@ This demonstration outlines a simulation for ticket lifecycles in osTicket.<br /
 - Microsoft Azure Virtual Machine (VM)
 - Remote Desktop
 - Active Directory Domain Services
-- Command-Line Tools
+- Command Prompt
+- PowerShell
+- PowerShell ISE
 
 <h2>Operating Systems Used </h2>
 
