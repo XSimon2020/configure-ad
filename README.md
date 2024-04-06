@@ -4,7 +4,7 @@
 <img width="559" alt="image" src="https://github.com/XSimon2020/azure-network-protocols/assets/111246513/52119721-42b1-4188-bfdc-9d4f2d7fe3a3">
 </p>
 
-<h1>Configuring Active Directory Within Virtual Machines</h1>
+<h1>Active Directory Within Azure Virtual Machines</h1>
 This demonstration outlines a simulation for ticket lifecycles in osTicket.<br />
 
 
@@ -20,12 +20,6 @@ This demonstration outlines a simulation for ticket lifecycles in osTicket.<br /
 - Windows 10 Pro VM (21H2)
 
 - Ubuntu Server 20.04 LTS VM
-
-<h2>List of Prerequisites</h2>
-
-- Microsoft Azure
-
-- Microsoft Remote Desktop
 
 <h2>Steps</h2>
 
