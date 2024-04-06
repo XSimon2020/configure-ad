@@ -12,7 +12,7 @@ This demonstration outlines a simulation for ticket lifecycles in osTicket.<br /
 
 - Microsoft Azure Virtual Machines
 
-- Remote Desktop
+- Microsoft Remote Desktop
 
 - Active Directory Domain Services
 
