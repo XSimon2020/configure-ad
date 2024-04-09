@@ -61,9 +61,6 @@ Select for the client on the list of virtual machines then copy the public IP ad
 <p>
 4) <b>Configure a perpetual ping to the domain controller.</b><br/>
 Within the client vm, type "cmd" on the search bar at the bottom left of the desktop to get to the command prompt.
-<img width="887" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/acc47d3b-72c9-4801-a85d-b2df758d6152">
-<img width="887" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/56c8ab99-d8c5-4227-a985-05b1cc191634">
-<img width="887" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/a9881f2b-5bd7-4435-8cba-3ce305fe92ed">
 <img width="839" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/54d3b413-0f30-4c0a-b161-298ab7f621f7">
 
 </p>
