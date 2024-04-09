@@ -190,7 +190,7 @@ Restart the client as required and log back in with the admin account. Allow dom
 <br/>
 
 <p>
-19) <b>Generate random user accounts.</b><br/>
+20) <b>Generate random user accounts.</b><br/>
 Go back to the domain controller and open "Windows PowerShell ISE" while making sure you run it as an admin. Go to the link url: [Script](https://docs.google.com/document/d/1MTwfILCUvTNCdNnfktYKkEbJJwYm_TNVfGj-6oR0LYA/edit?usp=sharing) to copy the script and paste it onto Windows Powershell ISE as shown. Click the green play button to run the script and observe the thousands of random user accounts being generated.
 <img width="865" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/f176729c-13d8-44ab-b6f9-5d0aab49763d">
 <img width="865" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/d4d028d6-d675-4009-a4bc-3b8dc75edae4">
@@ -199,7 +199,7 @@ Go back to the domain controller and open "Windows PowerShell ISE" while making 
 <br/>
 
 <p>
-20) <b>Log into the client with a random user account.</b><br/>
+21) <b>Log into the client with a random user account.</b><br/>
 Still within the domain controller, go to the "_EMPLOYEES" folder "Active Directory Users and Computers" to see the list of user accounts already saved. Select one of the user accounts to use and log into the client with it. Be sure to log in properly with the correct password as shown in the screenshot. Notice when examining the script used to generate the accounts, they all use the same password. You should now be able to log into any random user account besides the user account used as an example as shown.
 <img width="865" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/35fc2622-0758-4190-8d9f-8b6df4ec57af">
 <img width="599" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/7a25f2b8-2bfc-4025-b110-b780e591b463">
@@ -207,7 +207,7 @@ Still within the domain controller, go to the "_EMPLOYEES" folder "Active Direct
 </p>
 <br/>
 
-<b>This marks the end of the demonstration.</b>
+<b>This marks the end of the demonstration.<b>
 
 
 
