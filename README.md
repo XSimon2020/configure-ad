@@ -107,13 +107,85 @@ For future reference, it is good practice to avoid confusion and to ensure that 
 
 <p>
 10) <b>Activate Active Directory Domain Services from the domain controller. (cont.)</b><br/>
-Click the flag with the yellow triangular hazard symbol then click "Promote this server to a domain controller". On the "Deployment Configuration" section, configure the settings as it is show in the screenshot then click "Next >".
+Click the flag with the yellow triangular hazard symbol then click "Promote this server to a domain controller". On the "Deployment Configuration" section, configure the settings as it is show in the screenshot then click "Next >". Uncheck the box for creating DNS delegation in the "DNS Options" section. Wait for the NetBIOS domain name to load then click "Next >". Plow through the rest of the sections then wait for the prerequisites to be succesful in the "Prerequisite Check" section then click "Install". Once the install is complete, you will automatically get signed out of the domain controller.
 <img width="818" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/501b0013-4f74-4ce3-97a2-eb58fbdec84b">
 <img width="818" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/b4187f4e-e227-4393-b8b2-cc59766a8c96">
 <img width="818" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/2c0abd77-719a-47d3-8dc2-d31cb0168321"> 
-
+<img width="818" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/5e39e5c8-7980-420e-b164-c8933300f752">
+<img width="818" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/abc3f78f-9c40-4bf2-998c-4ade70c65d02">
+<img width="818" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/4f520530-b3c8-47ff-b38a-f504d4266f8e">
 </p>
 <br/>
+
+<p>
+11) <b>Sign back into the domain controller with the new credentials.</b><br/>
+Sign back into the domain controller on Microsoft Remote Desktop with the prefix as it is in the screenshot with your credentials
+<img width="598" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/c152d3be-a723-4912-94d4-506bbf97df53">
+</p>
+<br/>
+
+<p>
+12) <b>Add organizational units.</b><br/>
+Within the domain controller,go to "Active Directory Users and Computers" as shown in the screenshot. Two-finger click "mydomain.com" then click "Ogranizational Unit" to add a new organizational unit. You should have two of them with the names as shown in the screenshots.
+<img width="874" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/d1116b76-9eb9-4bdf-bebe-9dd86d71e67a">
+<img width="874" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/b3a40bb8-d5eb-433b-a0ce-c4fcfa20f5e3">
+</p>
+<br/>
+
+<p>
+13) <b>Create an admin account.</b><br/>
+Two-finger click "mydomain.com again and click "User" to start creating an admin account. The information for the account should be filled in just how it is in the screenshots then click "Next >". Uncheck the checkbox for changing the password after each new login attempt and create a password for the admin account. Click "Next >" then "Finish" to finalize the acount set-up. Drag the admin account to the "_ADMINS" folder.
+<img width="874" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/c27860f3-7c20-4c26-aa12-66b6337bdd31">
+<img width="874" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/f7fae36c-ed71-4844-a7f8-28931e40b1cc">
+<img width="874" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/b526c62c-2afa-40fd-b6d0-b73934d59e7a">
+</p>
+<br/>
+
+<p>
+14) <b>Add admin account to the necessary security group..</b><br/>
+Two-finger click the admin account within the folder and click "Properties". Add the admin account to the "Domain Admins" securtiy group as shown in the screenshot. Click "Apply" then "OK".
+<img width="874" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/5f1d00c6-2f33-42f7-9638-23125d025422">
+<img width="874" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/551a641e-0f7f-44f1-9257-caacded2d846">
+</p>
+<br/>
+
+<p>
+15) <b>Log out of the domain controller and log back in with the admin account.</b><br/>
+You can log out of the domain controller in the command prompt as shown in the screenshot. Log back into the domain controller with the admin account as shown in the screenshot.
+<img width="874" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/707d1ba2-68c1-4837-97e4-8e37d1fe0ea7">
+<img width="441" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/62eb9892-4c61-4588-ae81-93989fd998a8">
+</p>
+<br/>
+
+<p>
+16) <b>Change the dns server of the client as the domain controller.</b><br/>
+Within Azure, change the client's dns server to be the domain controller by using its private IP address and then save it as shown in the screenshot. Be sure to restart the client.
+<img width="881" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/3e0d145b-7e86-4165-a254-4d1fbf9f5393">
+</p>
+<br/>
+
+<p>
+17) <b>Log out of the domain controller and log back in with the admin account.</b><br/>
+You can log out of the domain controller in the command prompt as shown in the screenshot. Log back into the domain controller with the admin account as shown in the screenshot.
+<img width="874" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/707d1ba2-68c1-4837-97e4-8e37d1fe0ea7">
+<img width="441" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/62eb9892-4c61-4588-ae81-93989fd998a8">
+</p>
+<br/>
+
+<p>
+18) <b>Join client to the domain.</b><br/>
+Go back to the client still with the original account and go to the system settings as shown in the screenshot and click "Rename this PC (advanced)". Type out the domain name as shown in the screenshot then click "OK". On the pop type out the credentials of the admin account and validate that the client is now joined in the domain as shown.
+<img width="916" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/e6529282-7b92-4cba-84d8-815eacff2f1d">
+<img width="916" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/79449d5d-6c0e-48b8-9140-c0ae120127a0">
+<img width="916" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/bd0eafff-9c39-4235-8dd3-76555a879b20">
+<img width="916" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/437a36f6-fbda-41e4-a007-4ea236718f56">
+</p>
+<br/>
+
+
+
+
+
 
 
 
