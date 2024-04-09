@@ -106,7 +106,7 @@ For future reference, it is good practice to avoid confusion and to ensure that 
 <br/>
 
 <p>
-9) <b>Activate Active Directory Domain Services from the domain controller. (cont.)</b><br/>
+10) <b>Activate Active Directory Domain Services from the domain controller. (cont.)</b><br/>
 Click the flag with the yellow triangular hazard symbol then click "Promote this server to a domain controller". On the "Deployment Configuration" section, configure the settings as it is show in the screenshot then click "Next >".
 <img width="818" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/501b0013-4f74-4ce3-97a2-eb58fbdec84b">
 <img width="818" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/b4187f4e-e227-4393-b8b2-cc59766a8c96">
