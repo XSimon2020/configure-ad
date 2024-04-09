@@ -191,7 +191,7 @@ Restart the client as required and log back in with the admin account. Allow dom
 
 <p>
 19) <b>Generate random user accounts.</b><br/>
-Go back to the domain controller and open "Windows PowerShell ISE" while making sure you run it as an admin. Go to the link url: [Script](https://docs.google.com/document/d/1MTwfILCUvTNCdNnfktYKkEbJJwYm_TNVfGj-6oR0LYA/edit?usp=sharing) to copy the script and paste it onto Windows Powershell ISE as shown. Click the green play button to run the script and observe the thousands of random useer accounts being generated.
+Go back to the domain controller and open "Windows PowerShell ISE" while making sure you run it as an admin. Go to the link url: [Script](https://docs.google.com/document/d/1MTwfILCUvTNCdNnfktYKkEbJJwYm_TNVfGj-6oR0LYA/edit?usp=sharing) to copy the script and paste it onto Windows Powershell ISE as shown. Click the green play button to run the script and observe the thousands of random user accounts being generated.
 <img width="865" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/f176729c-13d8-44ab-b6f9-5d0aab49763d">
 <img width="865" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/d4d028d6-d675-4009-a4bc-3b8dc75edae4">
 <img width="865" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/66380f3d-da7a-4070-b1c8-5d0fe73ff5f3">
