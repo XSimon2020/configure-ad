@@ -97,14 +97,24 @@ Back within the client vm, validate ICMP traffic is being sent to the domain con
 
 <p>
 9) <b>Activate Active Directory Domain Services from the domain controller.</b><br/>
-For future reference, it is good practice to avoid confusion and to ensure that you are in the correct vm you intend to be in by going to the command prompt and typing "whoami". Now on the server manager dashboard from within the domain controller vm, click "Add roles and features then go through each settings without tampering with the preconfigured settings. Click "Active Directory Domain Services" then click "Add Features" once you get to the necessary section.
+For future reference, it is good practice to avoid confusion and to ensure that you are in the correct vm you intend to be in by going to the command prompt and typing "whoami". Now on the server manager dashboard from within the domain controller vm, click "Add roles and features then go through each settings without tampering with the preconfigured settings. Click "Active Directory Domain Services" then click "Add Features" once you get to the necessary section. Keep going through the remaining sections while leaving each preconfiguration untouched then click "Install" once you get to it. Click "Close" once the installation is fully loaded. 
 <img width="818" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/7d378af0-375c-41f3-ae9d-e430447b9ec5">
 <img width="818" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/a1ad6306-de08-455f-adf6-06d4ec567211">
 <img width="818" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/e96b7f24-0928-4ce0-9c37-1cd723a56ce4">
+<img width="818" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/8249686b-ac2d-4138-b499-1c16c16ac801">
+<img width="818" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/501b0013-4f74-4ce3-97a2-eb58fbdec84b">
+</p>
+<br/>
 
+<p>
+9) <b>Activate Active Directory Domain Services from the domain controller. (cont.)</b><br/>
+Click the flag with the yellow triangular hazard symbol then click "Promote this server to a domain controller". On the "Deployment Configuration" section, configure the settings as it is show in the screenshot then click "Next >".
+<img width="818" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/b4187f4e-e227-4393-b8b2-cc59766a8c96">
+<img width="818" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/2c0abd77-719a-47d3-8dc2-d31cb0168321">
 
 </p>
 <br/>
+
 
 
 
