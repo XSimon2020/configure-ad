@@ -31,11 +31,24 @@ This demonstration outlines a simulation for ticket lifecycles in osTicket.<br /
 <h2>Steps</h2>
 
 <p>
-1) <b>Create Windows 10 Pro VM.</b><br/>
-On portal.azure.com, go to the section as shown in the screenshot to create a new vm. When typing out the information for creating the vm, do it as it is shown in the screenshots besides the username and password that will be unique to you. Be sure to click the checkbox for licensing. Click "Review + create" and then click "Create" after validation has passed.
-<img width="998" alt="image" src="https://github.com/XSimon2020/azure-network-protocols/assets/111246513/5649a472-8c50-4686-b28a-787be6cee83b">
-<img width="998" alt="image" src="https://github.com/XSimon2020/azure-network-protocols/assets/111246513/4b2d40be-2a5f-415e-bc10-41e42cdd5edd">
-<img width="998" alt="image" src="https://github.com/XSimon2020/azure-network-protocols/assets/111246513/072c93cd-5dce-4c00-b44d-1ecb41c68eab">
-<img width="998" alt="image" src="https://github.com/XSimon2020/azure-network-protocols/assets/111246513/22fd4339-1597-481d-8ba1-fe15bcb9dd87">
+1) <b>Create domain controller.</b><br/>
+On portal.azure.com, search for virtual machines click to create a new one. When typing out the information for creating the vm, do it as it is shown in the screenshots besides the username and password that will be unique to you. Be sure to click the checkboxes for licensing. Click "Review + create" and then click "Create" after validation has passed.
+<img width="888" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/06030cd4-289c-430e-8725-a7d57b9c208e">
+<img width="887" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/587b1982-a5b2-4198-9d14-58e8a8ee990f">
+<img width="887" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/9f787a73-a463-4d80-b560-ee9a1128479c
+<img width="887" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/1aacea89-3e93-4567-a716-a1251a17fa3e">
+</p>
+<br/>
+
+<p>
+1) <b>Create client.</b><br/>
+Once the previous vm, the domain controller, has been deployed, repeat the steps for creating the client with some slight differences as shown in the screenshots. Be sure to click the checkboxes for licensing. Click "Review + create" and then click "Create" after validation has passed.
+
+
+
+
+
+
+
 </p>
 <br/>
