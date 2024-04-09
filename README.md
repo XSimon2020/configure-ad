@@ -110,7 +110,7 @@ For future reference, it is good practice to avoid confusion and to ensure that 
 Click the flag with the yellow triangular hazard symbol then click "Promote this server to a domain controller". On the "Deployment Configuration" section, configure the settings as it is show in the screenshot then click "Next >".
 <img width="818" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/501b0013-4f74-4ce3-97a2-eb58fbdec84b">
 <img width="818" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/b4187f4e-e227-4393-b8b2-cc59766a8c96">
-<img width="818" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/2c0abd77-719a-47d3-8dc2-d31cb0168321">
+<img width="818" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/2c0abd77-719a-47d3-8dc2-d31cb0168321"> 
 
 </p>
 <br/>
