@@ -60,11 +60,59 @@ Select for the client on the list of virtual machines then copy the public IP ad
 
 <p>
 4) <b>Configure a perpetual ping to the domain controller.</b><br/>
-Within the client vm, type "cmd" on the search bar at the bottom left of the desktop to get to the command prompt.
+Within the client vm, type "cmd" on the search bar at the bottom left of the desktop to get to the command prompt. Open the command prompt and type "ping -t" with the private IP address of the domain controller. 
 <img width="839" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/54d3b413-0f30-4c0a-b161-298ab7f621f7">
+<img width="836" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/a76910da-d703-4baf-bdc3-633f13329d78">
+</p>
+<br/>
+
+<p>
+5) <b>Login into the domain controller.</b><br/>
+Just like how you logged into the client, the same steps applies to log into the domain controller.
+<img width="886" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/e9969a4d-19b8-4862-a1b7-690557cf4c53">
+</p>
+<br/>
+
+<p>
+6) <b>Allow ICMP traffic to get to the domain controller from the client.</b><br/>
+Search for firewall on the search bar within the domain controller and click "Windows Defender Firewall with Advanced Security". Click "Inbound Rules" then click "Protocol" column repeatedly until you can see a row of ICMPv4 protocol settings. Click "Enable Rule" on the right side for two of the settings referring to echo requests. 
+<img width="817" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/bac683e5-ce55-4301-88e6-0ffbcf395d39">
+<img width="1781" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/6aef239c-17d0-40dc-923b-76d2e25aa13e">
+</p>
+<br/>
+
+<p>
+7) <b>Validate ICMP traffic is flowing from the client.</b><br/>
+Back within the client vm, validate ICMP traffic is being sent to the domain controller then press "command+C" to stop the perpetual ping from occurring.
+<img width="838" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/8eb75c78-5186-48f6-8d38-d2684fe127a4">
+</p>
+<br/>
+
+<p>
+8) <b>Validate ICMP traffic is flowing from the client.</b><br/>
+Back within the client vm, validate ICMP traffic is being sent to the domain controller then press "command+C" to stop the perpetual ping from occurring.
+<img width="838" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/8eb75c78-5186-48f6-8d38-d2684fe127a4">
+</p>
+<br/>
+
+<p>
+9) <b>Activate Active Directory Domain Services from the domain controller.</b><br/>
+For future reference, it is good practice to avoid confusion and to ensure that you are in the correct vm you intend to be in by going to the command prompt and typing "whoami". Now on the server manager dashboard from within the domain controller vm, click "Add roles and features then go through each settings without tampering with the preconfigured settings. Click "Active Directory Domain Services" then click "Add Features" once you get to the necessary section.
+<img width="818" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/7d378af0-375c-41f3-ae9d-e430447b9ec5">
+<img width="818" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/a1ad6306-de08-455f-adf6-06d4ec567211">
+<img width="818" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/e96b7f24-0928-4ce0-9c37-1cd723a56ce4">
+
 
 </p>
 <br/>
+
+
+
+
+
+
+
+
 
 
 
