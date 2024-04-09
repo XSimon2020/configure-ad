@@ -182,6 +182,24 @@ Go back to the client still with the original account and go to the system setti
 </p>
 <br/>
 
+<p>
+19) <b>Set up remote desktop for non-administrative users on the client.</b><br/>
+Restart the client as required and log back in with the admin account. Allow domain users to access remote desktop within the necessary settings as shown in the screenshot.
+<img width="916" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/e9d12b65-dcaf-464a-bb05-9cf62ba9f819">
+</p>
+<br/>
+
+<p>
+19) <b>Generate random user accounts.</b><br/>
+Go back to the domain controller and open "Windows PowerShell ISE". [Script](https://docs.google.com/document/d/1MTwfILCUvTNCdNnfktYKkEbJJwYm_TNVfGj-6oR0LYA/edit?usp=sharing)
+<img width="865" alt="image" src="https://github.com/XSimon2020/configure-ad/assets/111246513/d4d028d6-d675-4009-a4bc-3b8dc75edae4">
+
+
+</p>
+<br/>
+
+
+
 
 
 
