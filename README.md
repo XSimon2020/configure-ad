@@ -207,7 +207,7 @@ Still within the domain controller, go to the "_EMPLOYEES" folder "Active Direct
 </p>
 <br/>
 
-<b>This marks the end of the demonstration.<b>
+<b>This marks the end of the demonstration.</b>
 
 
 
